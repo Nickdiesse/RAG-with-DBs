@@ -28,9 +28,9 @@ def calculate_f1_and_exact(predicted, ground_truth):
 # Connessione al database PostgreSQL
 conn = psycopg2.connect(
     host="localhost",
-    database="benchmarkllm",
-    user="postgres",
-    password="nicola"
+    database="",
+    user="",
+    password=""
 )
 cursor = conn.cursor()
 
