@@ -10,9 +10,9 @@ with open(r"C:\Users\nicol\Desktop\progetto_tesi\Rag_con_db\champions_league.jso
 # Connessione a PostgreSQL
 conn = psycopg2.connect(
     host="localhost",
-    database="benchmarkllm",
-    user="postgres",
-    password="nicola"
+    database="",
+    user="",
+    password=""
 )
 cursor = conn.cursor()
 
